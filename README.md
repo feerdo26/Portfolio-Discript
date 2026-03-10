@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+#  Francisco Stefanini | Dossier v.24
 
-# Run and deploy your AI Studio app
+Un portafolio web cinematográfico y minimalista, diseñado para exhibir trabajos de dirección, guionismo, videoensayo y crítica cinematográfica.
 
-This contains everything you need to run your app locally.
+## 🎬 Descripción
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+Este proyecto es una aplicación web interactiva desarrollada con **React** y **TypeScript** que sirve como el dossier digital de Francisco Stefanini. El diseño prioriza la atmósfera y la estética *noir/cinematográfica*, utilizando una paleta de colores oscuros, tipografías serif elegantes y efectos visuales sutiles como iluminación dinámica y transiciones suaves.
 
-## Run Locally
+## ✨ Características
 
-**Prerequisites:**  Node.js
+- **Diseño Atmosférico**: Interfaz oscura con acentos en naranja (`#FF5722`), inspirada en la estética del cine noir y moderno.
+- **Navegación Fluida**: Transiciones entre secciones utilizando `react-router-dom` con scroll automático al inicio.
+- **Secciones Especializadas**:
+  - **Ficción**: Carruseles de imágenes y presentaciones de proyectos de dirección.
+  - **Crítica**: Repositorio de ensayos escritos y análisis teóricos.
+  - **Discript**: Galería de videoensayos sobre cultura digital y cine.
+  - **Guiones**: Showcase de escritura narrativa.
+- **Efectos Visuales**: Sistema de iluminación "Spotlight" que sigue el cursor, grano fílmico y tipografía responsiva.
 
+## 🛠️ Tecnologías
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **Core**: [React](https://reactjs.org/) + [Vite](https://vitejs.dev/)
+- **Lenguaje**: TypeScript
+- **Estilos**: [Tailwind CSS](https://tailwindcss.com/)
+- **Enrutamiento**: React Router DOM (v6)
+- **Iconos**: Lucide React
+- **Fuentes**: Google Fonts (Newsreader y Inter)
+
+## 🚀 Instalación y Uso
+
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/TU_USUARIO/Portfolio-Discript.git
+   cd Portfolio-Discript
+   ```
+
+2. **Instalar dependencias**
+   ```bash
+   npm install
+   ```
+
+3. **Ejecutar servidor de desarrollo**
+   ```bash
+   npm run dev
+   ```
+
+4. **Construir para producción**
+   ```bash
+   npm run build
+   ```
+
+## 📂 Licencia
+
+Este proyecto es de uso personal para exhibición de portafolio profesional. Todos los derechos de los contenidos creativos (imágenes, textos y videos) pertenecen al autor.
+
