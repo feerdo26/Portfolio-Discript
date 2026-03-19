@@ -107,12 +107,16 @@ const Home: React.FC = () => {
               </p>
 
               <div className="pt-8">
-                <button className="group relative px-10 py-4 border border-stone-800 overflow-hidden rounded">
+                <a 
+                  href="/pdf/CV FRANCISCO STEFANINI.pdf" 
+                  download="CV_Francisco_Stefanini.pdf"
+                  className="group relative px-10 py-4 border border-stone-800 overflow-hidden rounded inline-block"
+                >
                   <span className="relative z-10 text-[10px] uppercase tracking-[0.3em] text-white transition-colors duration-300 group-hover:text-black">
                     Descargar CV
                   </span>
                   <div className="absolute inset-0 bg-primary translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-out" />
-                </button>
+                </a>
               </div>
             </div>
           </div>
